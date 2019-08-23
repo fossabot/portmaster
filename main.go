@@ -18,6 +18,7 @@ import (
 	_ "github.com/safing/portmaster/core"
 	_ "github.com/safing/portmaster/firewall"
 	_ "github.com/safing/portmaster/nameserver"
+	_ "github.com/safing/portmaster/threats"
 	_ "github.com/safing/portmaster/ui"
 )
 

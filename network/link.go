@@ -311,11 +311,12 @@ func GetOrCreateLinkByPacket(pkt packet.Packet) (*Link, bool) {
 // CreateLinkFromPacket creates a new Link based on Packet.
 func CreateLinkFromPacket(pkt packet.Packet) *Link {
 	link := &Link{
-		ID:            pkt.GetLinkID(),
-		Verdict:       VerdictUndecided,
-		Started:       time.Now().Unix(),
-		RemoteAddress: pkt.FmtRemoteAddress(),
+		ID:               pkt.GetLinkID(),
+		Verdict:          VerdictUndecided,
+		Started:          time.Now().Unix(),
+		RemoteAddress:    pkt.FmtRemoteAddress(),
 		saveWhenFinished: true,
+		Inspect:          true,
 	}
 	return link
 }
