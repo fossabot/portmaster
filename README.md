@@ -3,6 +3,7 @@
 The Portmaster is a privacy app that at its core simply intercepts _all_ your network connections. Different modules with different privacy features are built on top of it, which can all be enabled or disabled as desired:
 
 ![portmaster modules](https://safing.io/assets/img/portmaster/modules.png)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsafing%2Fportmaster.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsafing%2Fportmaster?ref=badge_shield)
 
 #### ⚠️ Disclaimer
 
@@ -52,3 +53,7 @@ Installation instructions for your platform as well as known issues can be found
 
 - [Linux](https://github.com/safing/portmaster/wiki/Linux)
 - [Windows](https://github.com/safing/portmaster/wiki/Windows)
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsafing%2Fportmaster.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsafing%2Fportmaster?ref=badge_large)
